@@ -11,6 +11,7 @@ public class Lab_UserInput_Scanner_02 {
 
         System.out.println("Enter the Int");
         int int_input = scanner.nextInt();
+        System.out.println(int_input);
 
         System.out.println("Enter the Double");
         double double_input = scanner.nextDouble();
