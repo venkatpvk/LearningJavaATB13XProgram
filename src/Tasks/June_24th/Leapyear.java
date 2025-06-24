@@ -1,14 +1,8 @@
-package Tasks.July_18th;
-
-/*
-Create a program that determines whether a given year is a leap year.
-A leap year is divisible by 4, but not by 100 unless it is also divisible by 400.
-Use an if-else statement to make this determination.
- */
+package Tasks.June_24th;
 
 import java.util.Scanner;
 
-public class LeapYear {
+public class Leapyear {
     public static void main(String[] args) {
         System.out.println("Please enter the year number");
 

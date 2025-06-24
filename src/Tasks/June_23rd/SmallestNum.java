@@ -1,8 +1,8 @@
-package Tasks.July_23rd;
+package Tasks.June_23rd;
 
 import java.util.Scanner;
 
-public class MaxOfTwoNum {
+public class SmallestNum {
     public static void main(String[] args) {
         // Taking input from the user
         System.out.println("Please enter an integer");
@@ -11,11 +11,11 @@ public class MaxOfTwoNum {
         System.out.println("Please enter an integer");
         int num2 = scanner.nextInt();
 
-        // checking which number is larger
-        if (num1 > num2) {
-            System.out.printf("The first input %d is larger than second input %d", num1, num2);
+        // checking which number is smaller
+        if (num1 < num2) {
+            System.out.println("the samllest num is:"+num1);
         } else {
-            System.out.printf("The first input %d is smaller than second input %d", num1, num2);
+            System.out.println("the samllest num is:"+num2);
         }
     }
 }
